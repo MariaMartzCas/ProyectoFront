@@ -1,0 +1,56 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;  /* centra horizontal */
+   align-items: center;      /* centra vertical */
+}
+
+/*BARRA DE NAVEGACION*/
+
+.navegador .navbar {
+    background-color: rgb(183, 110, 185)!important; 
+}
+.dropdown-menu{
+        background-color: rgb(183, 110, 185)!important; 
+
+}
+/*SECCIONES*/
+.contenedor-oferta{
+      display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.local{
+    margin-left: 30px;
+}
+
+
+.contenedor{
+    
+     display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/*reseña*/
+.card-reseña{
+  width: 100%;
+    max-width: 900px;
+    margin: auto; 
+    padding: 10px;
+}
+.card {
+    border-radius: 15px;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: rgb(183, 110, 185);
+    height: 30px;
+}
